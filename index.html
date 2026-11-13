@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>rachybphotography</title>
+<meta name="description" content="Hamilton College sports and campus photography. Browse game galleries and order prints or full-resolution downloads.">
+<meta name="theme-color" content="#F6EEE1">
+<link rel="icon" type="image/png" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Libre+Franklin:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <a class="brand" id="brand" href="#"><img class="logo" src="assets/logo.png" alt="rachybphotography" width="1200" height="282"><small id="brandSub"></small></a>
+    <button class="tray-btn" id="trayBtn" type="button">Your order <span class="n" id="trayCount">0</span></button>
+  </div>
+</header>
+
+<main id="app" class="wrap"><p class="empty">Loading galleries…</p></main>
+
+<footer><div class="wrap"><img class="foot-badge" src="assets/badge.png" alt="rachybphotography" width="480" height="480"><span id="footName"></span><span>Clinton, New York</span></div></footer>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <div class="top"><span class="code" id="lbCode"></span><button class="x" id="lbClose" type="button">Close ✕</button></div>
+  <div class="stage"><div id="lbPic" class="lbpic"></div></div>
+  <div class="bot"><button class="nav" id="lbPrev" type="button" aria-label="Previous photo">‹</button><button class="add" id="lbAdd" type="button">Add to order</button><button class="nav" id="lbNext" type="button" aria-label="Next photo">›</button></div>
+</div>
+
+<aside class="tray" id="tray" hidden aria-label="Your order">
+  <header><h2>Your order</h2><button class="btn alt" id="trayClose" type="button">Close</button></header>
+  <div class="list" id="trayList"></div>
+  <div id="trayFoot"></div>
+</aside>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

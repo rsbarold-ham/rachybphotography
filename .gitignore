@@ -1,0 +1,11 @@
+# Unwatermarked originals stay on this computer only
+originals/
+__pycache__/
+.DS_Store
+Thumbs.db
+
+# Built copy for the Claude artifact (regenerate with tools/build_artifact.py)
+artifact/
+
+# Local preview settings
+.claude/
