@@ -109,7 +109,7 @@
       <section class="events">
         ${list.length ? list.map(e => `
           <a class="card" href="${MODE === 'hub' ? esc(e.url) : '#' + esc(e.id)}"${MODE === 'hub' ? ' target="_blank" rel="noopener"' : ''}>
-            <div class="cover">${e.coverSrc ? `<img alt="" src="${esc(e.coverSrc)}" loading="lazy">` : pic(e, e.cover || 0, 't')}${e.sample ? '<span class="badge">Sample</span>' : ''}</div>
+            <div class="cover" style="--focus:${esc(e.coverFocus || '50% 50%')}">${e.coverSrc ? `<img alt="" src="${esc(e.coverSrc)}" loading="lazy">` : pic(e, e.cover || 0, 't')}${e.sample ? '<span class="badge">Sample</span>' : ''}</div>
             <div class="meta">
               <span class="eyebrow">${esc(e.category)} · ${esc(fmtDate(e.date))}</span>
               <h2>${esc(nameOf(e))}</h2>
