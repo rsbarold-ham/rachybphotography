@@ -5480,7 +5480,8 @@
           ]
         }
       ],
-      "url": "https://claude.ai/artifact/7mZz6khHvkgTDcjx7d3XN5"
+      "url": "https://claude.ai/artifact/7mZz6khHvkgTDcjx7d3XN5",
+      "cover": 180
     },
     {
       "id": "fall-foliage-2026",
@@ -5636,7 +5637,8 @@
         }
       ],
       "dateInTitle": false,
-      "url": "https://claude.ai/artifact/WmnvcUedsunVx5BmQfJhji"
+      "url": "https://claude.ai/artifact/WmnvcUedsunVx5BmQfJhji",
+      "cover": 21
     },
     {
       "id": "hamilton-vs-allegany-ncaa-1114",
@@ -9639,7 +9641,8 @@
             10
           ]
         }
-      ]
+      ],
+      "cover": 88
     }
   ]
 }
