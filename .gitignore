@@ -9,3 +9,6 @@ artifact/
 
 # Local preview settings
 .claude/
+
+# Downloadable zips for sharing (not part of the site)
+exports/
